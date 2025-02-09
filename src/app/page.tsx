@@ -17,9 +17,15 @@ export default function Home() {
                 {/* Chatbot Body */}
                 <div className="chat-body">
                     <div className="messages bot-message">
-                        <ChatbotIcon />
+                        <ChatbotIcon/>
                         <p className="message-text">
-                            Hey there <br /> How can I help you today?
+                            Hey there <br/> How can I help you today?
+                        </p>
+                    </div>
+                    <div className="messages user-message">
+                        <ChatbotIcon/>
+                        <p className="message-text">
+                            Lorem ipsum dolo, sit amet consectetur adipiscing elit
                         </p>
                     </div>
                 </div>
